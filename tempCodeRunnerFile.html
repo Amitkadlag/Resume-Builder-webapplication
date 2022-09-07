@@ -1,0 +1,70 @@
+<div class="container" id="cv-form">
+        <h1 class="text-center my-3">Resume Generator</h1>
+        <p class="text-center">Created by Group 17</p>
+       
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Personal Information</h3>
+                
+                <div class="form-group">
+                    <label for="namefeild ">Enter Your Name</label>
+                    <input type="text" id="namefeild" placeholder="Enter Here" class="form-control">
+                </div>
+                <div class="form-group mt-3">
+                    <label for="contactfeild ">Enter Your Contact NO.</label>
+                    <input type="text" id="contactfeild" placeholder="Enter Here" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="address ">Enter Your Address</label>
+                    <textarea type="text" id="address" placeholder="Enter Here" class="form-control" rows="5"></textarea>
+
+                </div>
+                <p class="text-secondary my-3">Important links</p>
+                <div class="form-group mt-3">
+                    <label for="fbfeild ">Facebook link</label>
+                    <input type="text"
+                     id="fbfeild" 
+                     placeholder="Enter Here"
+                      class="form-control">
+                </div>
+                <div class="form-group mt-3">
+                    <label for="insta ">Instagrame link</label>
+                    <input type="text" id="insta" placeholder="Enter Here" class="form-control">
+                </div>
+                <div class="form-group mt-3">
+                    <label for="Linkedin ">Linkedin Link</label>
+                    <input type="text" id="Linkedin" placeholder="Enter Here" class="form-control">
+      </div>
+  </div>
+            <div class="col-md-6">
+                <h3>Professional Informationl</h3>
+
+                <div class="form-group">
+                    <label for="obj">Objective</label>
+                    <textarea type="text" id="obj" placeholder="Enter Here" class="form-control wefield" rows="2"></textarea>
+                </div>
+                <div class="form-group mt-2" id="we">
+                    <label for="">Work Experience</label>
+                    <textarea placeholder="Enter Here" class="form-control wefield" rows="2"></textarea>
+
+
+
+
+                    <div class="container text-center mt-2 " id="weAddButton">
+                        <button onclick="addNewWEFeild()" class="btn btn-primary btn-sm">Add</button>
+                    </div>
+                </div>
+
+                <div class="form-group mt-2" id="aq">
+                    <label for="">Academic Qualification</label>
+                    <textarea placeholder="Enter Here" class="form-control eqfield" rows="2"></textarea>
+                    <div class="container text-center mt-2" id="aqAddButton">
+                        <button onclick="addNewAQFeild()" class="btn btn-primary btn-sm">Add</button>
+                    </div>
+                 </div>
+
+            </div>
+            <div class="container text-center mt-3">
+                <button class="btn btn-primary btn-lg">generate YourCV</button>
+            </div>
+            </div>
